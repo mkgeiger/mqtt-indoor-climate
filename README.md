@@ -12,6 +12,7 @@ My descision fell on the `Wemos D1 mini` board.
 
 ### Sensor
 My descision was to take the Bosch BME680 all-in-one sensor, which incorporates a temperature, humidity, pressure and gas sensor in one housing. The sensor is connected via I²C interface. The Bosch Sensortec Environmental Cluster (BSEC) Software library is used to talk with the BME680. This library has been conceptualized to provide higher-level signal processing and fusion for the BME680. The library receives compensated sensor values from the sensor API. It processes the BME680 signals to provide the requested sensor outputs.
+
 ![BME680](/hardware/BME680.png)
 
 ## SW-update
